@@ -1,0 +1,18 @@
+{
+  "calibration_timestamp": "2025-11-01T05:46:21.769623",
+  "total_joints": 1,
+  "joints": {
+    "right_pinky_abd": {
+      "joint_name": "right_pinky_abd",
+      "servo_id": 4,
+      "detected_min": 1310,
+      "detected_max": 1873,
+      "detected_range": 563,
+      "factory_min": 1300,
+      "factory_max": 1885,
+      "inverted": false,
+      "timestamp": "2025-11-01T05:46:21.517000",
+      "limits_written": true
+    }
+  }
+}

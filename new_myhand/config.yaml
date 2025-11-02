@@ -1,0 +1,81 @@
+## table of joints :
+# ID	min	max
+# 1	中尖背	中尖腹
+# 2	尾指背	尾指腹
+# 3	尾尖背	尾尖腹
+# 4	尾左	尾右
+# 5	中左	中右
+# 6	食左	食右
+# 7	食指背	食指腹
+# 8	食尖背	食尖腹
+# 9	姆指背	姆指腹
+# 10	姆尖背	姆尖腹
+# 11	姆下	姆上
+# 12	姆右	姆左
+# 13	無右	無左
+# 14	無尖背	無尖腹
+# 15	無背	無腹
+# 16	中背	中腹
+# 17	手 後	手前
+
+# Servo to joint mapping for robotic hand control
+servo_to_joint_map:
+  1: right_middle_pip   # min: outside   max: inside
+  2: right_pinky_mcp    # min: outside   max: inside
+  3: right_pinky_pip    # min: outside   max: inside
+  4: right_pinky_abd    # min: left      max: right
+  5: right_middle_abd   # min: left      max: right
+  6: right_index_abd    # min: left      max: right
+  7: right_index_mcp    # min: outside   max: inside
+  8: right_index_pip    # min: outside   max: inside
+  9: right_thumb_pip    # min: outside   max: inside
+  10: right_thumb_dip   # min: outside   max: inside
+  11: right_thumb_abd   # min: down      max: up
+  12: right_thumb_mcp   # min: right     max: left
+  13: right_ring_abd    # min: right     max: left
+  14: right_ring_pip    # min: outside   max: inside
+  15: right_ring_mcp    # min: outside   max: inside
+  16: right_middle_mcp  # min: outside   max: inside
+  17: right_wrist       # min: backward  max: forward
+
+  
+
+# only for mujoco!!! Joints that need inverted min/max in mujoco
+mj_invert_joints:
+  - right_wrist
+  - right_index_abd
+  - right_middle_abd
+  - right_pinky_abd
+  # - right_middle_pip #not sure
+
+# MuJoCo joints range for matching real Dex hand
+mj_joint_limits:
+  # Wrist: use user's custom setting (kept as-is)
+  right_wrist: [-0.520, 0.34]
+
+  # Thumb (from orcahand_right.mjcf)
+  right_thumb_mcp: [-0.87266, 0.87266]
+  right_thumb_abd: [-1.08211, 0.0]
+  right_thumb_pip: [-0.7944, 1.23]
+  right_thumb_dip: [-0.85384, 1.45]
+
+  # Index
+  right_index_abd: [-1.04577, 0.24577]
+  right_index_mcp: [-0.34907, 1.65806]
+  right_index_pip: [-0.34907, 1.88496]
+
+  # Middle
+  right_middle_abd: [-0.64577, 0.64577]
+  right_middle_mcp: [-0.34907, 1.58825]
+  right_middle_pip: [-0.34907, 1.8675]
+
+  # Ring
+  right_ring_abd: [-0.47577, 0.80577]
+  right_ring_mcp: [-0.34907, 1.58825]
+  right_ring_pip: [-0.34907, 1.8675]
+
+  # Pinky
+  right_pinky_abd: [-0.12244, 1.1691]
+  right_pinky_mcp: [-0.34907, 1.71042]
+  right_pinky_pip: [-0.34907, 1.88496]
+

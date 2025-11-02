@@ -1,0 +1,18 @@
+{
+  "calibration_timestamp": "2025-11-01T05:47:45.976252",
+  "total_joints": 1,
+  "joints": {
+    "right_index_abd": {
+      "joint_name": "right_index_abd",
+      "servo_id": 6,
+      "detected_min": 559,
+      "detected_max": 1033,
+      "detected_range": 474,
+      "factory_min": 542,
+      "factory_max": 1044,
+      "inverted": false,
+      "timestamp": "2025-11-01T05:47:45.723300",
+      "limits_written": true
+    }
+  }
+}

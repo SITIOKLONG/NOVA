@@ -1,0 +1,150 @@
+{
+  "calibration_timestamp": "2025-11-01T16:23:39.888773",
+  "total_joints": 12,
+  "joints": {
+    "right_pinky_abd": {
+      "joint_name": "right_pinky_abd",
+      "servo_id": 4,
+      "factory_min": 954,
+      "factory_max": 1783,
+      "inverted": false,
+      "detected_min": 1798,
+      "detected_max": 1819,
+      "detected_range": 21,
+      "timestamp": "2025-11-01T16:21:23.696649",
+      "limits_written": true
+    },
+    "right_ring_abd": {
+      "joint_name": "right_ring_abd",
+      "servo_id": 13,
+      "factory_min": 9,
+      "factory_max": 134,
+      "inverted": false,
+      "detected_max": 114,
+      "detected_min": 27,
+      "detected_range": 87,
+      "timestamp": "2025-11-01T16:21:20.732650",
+      "limits_written": true
+    },
+    "right_middle_abd": {
+      "joint_name": "right_middle_abd",
+      "servo_id": 5,
+      "factory_min": 812,
+      "factory_max": 1487,
+      "inverted": false,
+      "detected_min": 926,
+      "detected_max": 1490,
+      "detected_range": 564,
+      "timestamp": "2025-11-01T16:21:16.859516",
+      "limits_written": true
+    },
+    "right_index_abd": {
+      "joint_name": "right_index_abd",
+      "servo_id": 6,
+      "factory_min": 10,
+      "factory_max": 1399,
+      "inverted": false,
+      "detected_min": 26,
+      "detected_max": 1377,
+      "detected_range": 1351,
+      "timestamp": "2025-11-01T16:21:09.575821",
+      "limits_written": true
+    },
+    "right_pinky_pip": {
+      "joint_name": "right_pinky_pip",
+      "servo_id": 3,
+      "factory_min": 0,
+      "factory_max": 4095,
+      "inverted": false,
+      "detected_min": 1543,
+      "detected_max": 2727,
+      "detected_range": 1184,
+      "timestamp": "2025-11-01T16:22:51.150915",
+      "limits_written": true
+    },
+    "right_ring_pip": {
+      "joint_name": "right_ring_pip",
+      "servo_id": 14,
+      "factory_min": 1540,
+      "factory_max": 3176,
+      "inverted": false,
+      "detected_min": 1512,
+      "detected_max": 1676,
+      "detected_range": 164,
+      "timestamp": "2025-11-01T16:22:37.483798",
+      "limits_written": true
+    },
+    "right_middle_pip": {
+      "joint_name": "right_middle_pip",
+      "servo_id": 1,
+      "factory_min": 3202,
+      "factory_max": 4034,
+      "inverted": false,
+      "detected_min": 3187,
+      "detected_max": 4078,
+      "detected_range": 891,
+      "timestamp": "2025-11-01T16:22:33.495602",
+      "limits_written": true
+    },
+    "right_index_pip": {
+      "joint_name": "right_index_pip",
+      "servo_id": 8,
+      "factory_min": 3291,
+      "factory_max": 4079,
+      "inverted": false,
+      "detected_min": 3352,
+      "detected_max": 4079,
+      "detected_range": 727,
+      "timestamp": "2025-11-01T16:22:22.165730",
+      "limits_written": true
+    },
+    "right_pinky_mcp": {
+      "joint_name": "right_pinky_mcp",
+      "servo_id": 2,
+      "factory_min": 28,
+      "factory_max": 431,
+      "inverted": false,
+      "detected_min": 106,
+      "detected_max": 1378,
+      "detected_range": 1272,
+      "timestamp": "2025-11-01T16:23:39.095874",
+      "limits_written": true
+    },
+    "right_ring_mcp": {
+      "joint_name": "right_ring_mcp",
+      "servo_id": 15,
+      "factory_min": 447,
+      "factory_max": 1400,
+      "inverted": false,
+      "detected_min": 419,
+      "detected_max": 462,
+      "detected_range": 43,
+      "timestamp": "2025-11-01T16:23:23.931378",
+      "limits_written": true
+    },
+    "right_middle_mcp": {
+      "joint_name": "right_middle_mcp",
+      "servo_id": 16,
+      "factory_min": 339,
+      "factory_max": 1505,
+      "inverted": false,
+      "detected_min": 235,
+      "detected_max": 373,
+      "detected_range": 138,
+      "timestamp": "2025-11-01T16:23:20.817225",
+      "limits_written": true
+    },
+    "right_index_mcp": {
+      "joint_name": "right_index_mcp",
+      "servo_id": 7,
+      "factory_min": 3370,
+      "factory_max": 4076,
+      "inverted": false,
+      "detected_min": 3778,
+      "detected_max": 4079,
+      "detected_range": 301,
+      "timestamp": "2025-11-01T16:23:17.600435",
+      "limits_written": true
+    }
+  }
+}

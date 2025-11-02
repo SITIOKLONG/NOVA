@@ -1,0 +1,17 @@
+{
+  "calibration_timestamp": "2025-11-01T05:31:38.256241",
+  "total_joints": 1,
+  "joints": {
+    "right_wrist": {
+      "joint_name": "right_wrist",
+      "servo_id": 17,
+      "detected_min": 2215,
+      "detected_max": 3089,
+      "detected_range": 874,
+      "factory_min": 2170,
+      "factory_max": 3132,
+      "inverted": false,
+      "timestamp": "2025-11-01T05:31:38.255724"
+    }
+  }
+}
